@@ -1,0 +1,6 @@
+{
+  "name": "Todo List",
+  "description": "A responsive, accessible todo list web application with local storage persistence, dark mode, keyboard shortcuts, and smooth motion transitions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
