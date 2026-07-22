@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({
   };
 
   return (
-    <header className="mb-6 pb-5 border-b border-slate-200/80 dark:border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+    <header className="mb-6 pb-5 border-b border-slate-200/80 dark:border-slate-800/80 flex flex-row sm:flex-row sm:items-center justify-between gap-4">
       <div>
         <div className="flex items-center gap-2.5">
           <div className="p-2 rounded-xl bg-indigo-600 text-white shadow-sm shadow-indigo-600/20">
@@ -60,11 +60,11 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
       </div>
 
-      <div className="flex items-center gap-2 self-start sm:justify-end">
+      <div className="flex items-center gap-2 self-start sm:self-auto">
         {/* Keyboard shortcuts trigger */}
         <button
           onClick={onOpenShortcuts}
-          className="inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700/80 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
+          className="hidden md:inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700/80 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
           aria-label="Open keyboard shortcuts modal"
           title="Keyboard Shortcuts (Press ?)"
         >
