@@ -296,7 +296,7 @@ export default function App() {
       {isLoading && <InitialLoader onComplete={() => setIsLoading(false)} />}
 
       {/* Main Container */}
-      <main className="max-w-2xl mx-auto px-4 py-8 sm:py-12">
+      <main className="max-w-4xl mx-auto px-4 py-8 sm:py-12">
         {/* Header */}
         <Header
           theme={theme}
